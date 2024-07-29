@@ -56,6 +56,26 @@
         }
         .blog-post {
             margin-top: 20px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .blog-title {
+            font-weight: bold;
+            margin: 0;
+        }
+        .blog-description {
+            color: gray;
+            margin: 5px 0;
+        }
+        .blog-date {
+            color: lightgray;
+            display: inline;
+        }
+        .blog-tags {
+            display: inline;
+            margin-left: 10px;
         }
         @media only screen and (max-width: 768px) {
         .footer {
@@ -77,9 +97,12 @@
             <a href="index.html">/home</a>
             <a href="blogs.html">/blog</a>
         </div>
-        <div class="blog-post">
-            <p><strong>24 Jun, 2024</strong> - <a href="blogs\deleting-social-medias.html">I've had to delete social medias</a></p>
-        </div>
+        <a href="blogs/deleting-social-medias.html" class="blog-post">
+            <p class="blog-title">I've had to delete social medias</p>
+            <p class="blog-description">What does social media do to man</p>
+            <p class="blog-date">24 Jun, 2024</p>
+            <span class="blog-tags">• healthcare</span>
+        </a>
     </div>
 </body>
 </html>
